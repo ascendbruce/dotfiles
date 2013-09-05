@@ -1,0 +1,20 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"detect_slow_plugins": false,
+	"find_selected_text": true,
+	"font_face": "Source Code Pro",
+	"font_size": 13.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+	],
+	"open_files_in_new_window": true,
+	"scroll_past_end": true,
+	"show_full_path": true,
+	"sublimelinter_executable_map":
+	{
+		"ruby": "/Users/bruce/.rvm/bin/rvm-auto-ruby"
+	},
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}
