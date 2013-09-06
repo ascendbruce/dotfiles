@@ -2,6 +2,7 @@
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
+# 如果沒有加這行，會出現 "RVM is not a function, selecting rubies with 'rvm use ...' will not work."
 [[ -s "/Users/bruce/.rvm/scripts/rvm" ]] && source "/Users/bruce/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
