@@ -23,5 +23,5 @@
 * SublimeTODO
 
 ## 額外設定
-* 幹掉 PHP package (因為會干擾 if[tab]/else[tab] 等ERB snippet)
+* 幹掉 PHP package (因為會干擾 if[tab]/else[tab] 等ERB snippet) 透過 setting ignore 即可
 * 移掉 Rails 裡的 end[tab] snippet (會干擾ERB snippet package)
