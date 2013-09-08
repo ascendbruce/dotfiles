@@ -1,0 +1,31 @@
+#!/Users/bruce/.rvm/rubies/ruby-1.9.2-p290/bin/ruby
+#encoding:utf-8
+
+require 'open-uri'
+require 'uri'
+require 'hpricot'
+
+unless keyword = ARGV[0]
+  print "Pleas enter keyword, ISBN or books id > "
+  keyword = gets.chomp
+end
+
+URL=URI.encode("http://search.books.com.tw/exep/prod_search.php?cat=BKA&key=#{keyword}")
+doc = Hpricot(open(URL))
+
+begin
+  href = doc.search("ul[@class=searchbook]/li")[0].search("h3 a")[0].attributes['href']
+  title = doc.search("ul[@class=searchbook]/li")[0].search("h3 a")[0].inner_html
+  title.gsub!(/<em>|<\/em>/, "")
+
+  arr=href.split(/(item=)|&/)
+  item_id = arr[arr.index("item=")+1]
+
+  url = "http://www.books.com.tw/exep/assp.php/bruceli/exep/prod/booksfile.php?item=#{item_id}"
+
+
+  puts "", "Found Book Title: #{title}", url, ""
+
+rescue NoMethodError
+  puts "Sorry but we can't find the book."
+end
