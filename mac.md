@@ -134,6 +134,12 @@
 
 ## CLI 工具
 * Pandoc *markdown/textile/html 互轉*
+> 這東西會造成 rails console 炸掉，原因不明，目前沒空研究。
+> sudo rm -rf /usr/local/bin/pandoc
+> sudo rm -rf /usr/local/doc/pandoc-1.11.1/
+> sudo rm -rf /usr/local/share/man/man1/pandoc.1.gz
+> sudo rm -rf /usr/local/share/man/man5/pandoc_markdown.5.gz
+> sudo rm -rf /usr/local/share/pandoc-1.11.1/
 * Heroku Toolbelt
 
 
