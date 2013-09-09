@@ -4,13 +4,20 @@
 * Alignment (cmd+shift+a 多行對齊)
 * DetectSyntax
 * Emmet (Zen Code)
-* ERB Insert and Toggle Commands (if, ife, else, end, lt 等 snippets)
+* ERB_Snippets (if, ife, else, end, lt 等 snippets)
 * Git/Git Tool
 * Git status Files
-* GitGutter (行號旁邊顯示 +-)
+* GitGutter (行號旁邊顯示 +-
+* Github Tools
+> 用 Command Palette 開啓在 Github 上的檔案/blame
+* Markdown Preview
+* RSpec
+* Rail lastest migration
+> 用 Command Palette 開啓最後一個migration file
 
 ### 裝了但也不熟的
 * HTML5
+* ApplySyntax
 * knockdown
 * PlainTasks
 * PyV8
