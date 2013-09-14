@@ -10,6 +10,7 @@
 * Angry Birds Space.app
 * Angry Birds.app
 * AntiRSI.app
+* Anvil
 * App Store.app
 * ArgoUML.app
 * Automator.app
@@ -144,6 +145,14 @@
 
 
 ## 其他設定
+### Yahoo Key Key
+因為官方已經停止支援了，要看之後 Mac OS 是否繼續相容＆有沒有人接手，可能會有變化。
+
+1. 安裝 Yahoo Key Key 1.1 build 2535 (最後一版)
+2. 取消 Yahoo Key Key > Preference > update > Check on launch (反正都沒有支援了...)
+3. Phrase > Launch User Phrase Editor (並 Keep in Dock，方便以後追加)
+4. 匯入自定詞庫
+
 ### Dock 空白
 在 Console 下
 
@@ -152,6 +161,11 @@
 數量夠了後
 
     killall Dock
+
+### 釋放記憶體Service
+1. 參考 [快樂小藥師-如何釋放mac的記憶體](http://mulicia.pixnet.net/blog/post/28075876-%E5%A6%82%E4%BD%95%E9%87%8B%E6%94%BEmac%E7%9A%84%E8%A8%98%E6%86%B6%E9%AB%94)
+2. Application 限 Finder
+3. 命名為 "Purge Memory"
 
 ### OnyX
 * Parameters
@@ -185,3 +199,6 @@
   * Ehon
     * ↑ : Next Page
     * ↓ : Previous Page
+* Dictation & Speech
+  * Speak selected text when the key is pressed : Option+Esc
+  * Announce the time : On the hour

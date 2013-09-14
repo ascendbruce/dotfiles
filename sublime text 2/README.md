@@ -14,6 +14,8 @@
 * RSpec
 * Rail lastest migration
 > 用 Command Palette 開啓最後一個migration file
+* SCSS
+* SCSS Snippets
 
 ### 裝了但也不熟的
 * HTML5

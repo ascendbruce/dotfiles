@@ -29,6 +29,10 @@ export TERM=xterm-256color
 export LSCOLORS=Exfxcxdxbxegedabagacad
 export GREP_OPTIONS='--color=auto'
 
+# bundle install thows ssl error
+export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
+
 # Prevent to make terminal screen a mess
 # if still not work. try ctrl+l
 shopt -s checkwinsize
+
