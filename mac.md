@@ -196,9 +196,12 @@
   * All Application
     * cmd+shift+m : Zoom
     * cmd+shift+m : 縮放
+  * Mission Control
+    * ctrl+shift+← : Show notification center
   * Ehon
     * ↑ : Next Page
     * ↓ : Previous Page
 * Dictation & Speech
+  * System Voice : Tom (需要下載 Customize > US English Male > Tom)
   * Speak selected text when the key is pressed : Option+Esc
   * Announce the time : On the hour

@@ -1,2 +1,0 @@
-# Firefox
-TODO
