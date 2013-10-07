@@ -10,6 +10,7 @@
 > Facebook 的搜尋真他X的垃圾，這個才像話
 * FlashBlock
 * Google Analytics Opt-out
+* tampermonkey
 * [Google Calendar - Weekend coloration - FR](http://userscripts.org/scripts/show/77649)
 * Google Dictionary (offical)
 * Incredible StartPage
@@ -34,16 +35,19 @@
 * Xmarks Bookmark Sync
 * 新聞小幫手
 
+> Youtube Downloader 似乎已經全面從 Chrome app store 消失，優質替代方案 = Firefox + `1-click youtube video download` Add-on
+
+
 ## 自定搜尋引擎
 
-|keyword|URL                                                                  |
-|:------|:--------------------------------------------------------------------|
-| yd    | http://tw.dictionary.yahoo.com/dictionary?p=%s                      |
-| cam   | http://dictionary.cambridge.org/search/british/?source=gadgets&q=%s |
-| mw    | http://www.merriam-webster.com/dictionary/%s                        |
-| oxd   | http://oxforddictionaries.com/search/english/?direct=1&multi=1&q=%s |
-| rg    | {google:baseURL}search?q=%s+site:guides.rubyonrails.org             |
-| rb    | (from Ruby API Search Extension)                                    |
-| fkcc  | http://www.flickr.com/search/?q=%s&l=cc&ct=0&mt=all&adv=1           |
-
+|keyword      |URL                                                                  |
+|:------------|:--------------------------------------------------------------------|
+| yd          | http://tw.dictionary.yahoo.com/dictionary?p=%s                      |
+| cam         | http://dictionary.cambridge.org/search/british/?source=gadgets&q=%s |
+| mw          | http://www.merriam-webster.com/dictionary/%s                        |
+| oxd         | http://oxforddictionaries.com/search/english/?direct=1&multi=1&q=%s |
+| rg          | {google:baseURL}search?q=%s+site:guides.rubyonrails.org             |
+| rb          | (from Ruby API Search Extension)                                    |
+| fkcc        | http://www.flickr.com/search/?q=%s&l=cc&ct=0&mt=all&adv=1           |
+| extensions  | https://chrome.google.com/webstore/search/%s?hl=en-US               |
 

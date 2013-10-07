@@ -143,6 +143,8 @@
 > sudo rm -rf /usr/local/share/pandoc-1.11.1/
 * Heroku Toolbelt
 
+## Dashboard widgets
+* [Minutes](http://minutes.en.softonic.com/mac) 倒數計時
 
 ## 其他設定
 ### Yahoo Key Key
@@ -186,6 +188,10 @@
 
 ### System Preferences
 * General > Appearance > Graphite
+* Accessibility > Zoom
+  * 勾選 Use keyboard shortcuts to zoom
+  * 勾選 Use scroll gesture with modifier keys to zoom. modifier 選 Ctrl
+  * More Options... > When zoomed in, the screen image moves > Continuously with pointer
 * Mission Control > Automatically rearrange spaces based on most recent use > 取消
 * Trackpad 手勢全開
 * Language
