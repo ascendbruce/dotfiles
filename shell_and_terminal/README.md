@@ -39,6 +39,7 @@ CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 * Window > Transparency 調一點點
 * Window > Columns & Rows > 參考「共用」
 * Terminal > Scrollback Lines 調多一點，例如 10,000 行
+* Keys > Load Preset... > xterm with Numberic Keypad # 否則vim會無法是用數字鍵
 
 #### Keys
   * cmd+shift+上下左右 : Select Split Pane 上下左右
