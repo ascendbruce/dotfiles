@@ -7,11 +7,20 @@ Mac 要放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
 1. [取得最新的 .git-completion.bash script](http://git.kernel.org/cgit/git/git.git/plain/contrib/completion/)
 2. 放到 `~/.git-completion.bash`
 
-## booksearch
+## Dropbox/Misc/bin
+這個資料夾是我的自定工具，可享 dropbox 自動 sync 的好處。
+
+### booksearch
 CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 
 * 需注意 ruby 環境
 * 檔案放到 `/Users/bruce/Dropbox/Misc/bin/booksearch`，否則要修改 `PATH` 變數。
+
+### sublime commandline tool
+
+    ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /Users/bruce/Dropbox/Misc/bin/sublime
+
+[source](https://gist.github.com/olivierlacan/1195304)
 
 ## Terminal client
 ### 共用
