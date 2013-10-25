@@ -7,6 +7,9 @@ Mac 要放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
 1. [取得最新的 .git-completion.bash script](http://git.kernel.org/cgit/git/git.git/plain/contrib/completion/)
 2. 放到 `~/.git-completion.bash`
 
+## git global ignore
+    git config --global core.excludesfile ~/.gitignore_global
+
 ## Dropbox/Misc/bin
 這個資料夾是我的自定工具，可享 dropbox 自動 sync 的好處。
 

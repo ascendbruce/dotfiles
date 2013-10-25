@@ -1,4 +1,10 @@
 # Chrome 設定
+* Settings
+  * Passwords and forms
+    * 取消勾選 Offer to save passwords I enter on the web.
+  * Languages
+    * 取消勾選 Offer to translate pages that aren't in a language I read (會跳翻譯的橫幅，根本沒用到過)
+
 ## 外掛
 不見得每個都要裝，看狀況。
 
