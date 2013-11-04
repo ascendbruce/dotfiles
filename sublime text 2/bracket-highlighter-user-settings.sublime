@@ -1,10 +1,11 @@
 {
+
     "bracket_styles": {
 
         "default": {
-            "icon": "",
+            "icon": "bookmark",
             "color": "brackethighlighter.default",
-            "style": "underline"
+            "style": "outline"
         },
 
         "unmatched": {
@@ -12,16 +13,16 @@
             "style": "outline"
         },
         "curly": {
-            "icon": ""
+            "icon": "bookmark"
         },
         "round": {
-            "icon": ""
+            "icon": "bookmark"
         },
         "square": {
-            "icon": ""
+            "icon": "bookmark"
         },
         "angle": {
-            "icon": ""
+            "icon": "bookmark"
         },
         "tag": {
             "icon": "",

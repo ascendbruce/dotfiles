@@ -4,13 +4,9 @@
 
 * Address Book.app
 * Adium.app
-* Alfred.app
-* Angry Birds Rio.app
-* Angry Birds Seasons.app
-* Angry Birds Space.app
-* Angry Birds.app
+* Alfred.app (快速指令列)
 * AntiRSI.app
-* Anvil
+* Anvil (Pow 管理工具)
 * App Store.app
 * ArgoUML.app
 * Automator.app
@@ -39,7 +35,7 @@
 * FileZilla.app
 * Firefox.app
 * Font Book.app
-* Fugu.app
+* Fugu.app (SFTP client)
 * GeekTool.app
 * GitX.app
 * Gitbox.app
