@@ -97,6 +97,7 @@
 * Stickies.app
 * Stone Hill Time Card.app
 * Store News.app
+* Sequel Pro
 * Sublime Text 2.app
 * SugarSync Manager.app
 * Super Video Converter.app
@@ -128,6 +129,8 @@
 * iTunes.app
 * iUnarchive.app
 * p4merge.app
+* BetterTouchTool (windows snapping)
+* SetEXIFData
 
 ## CLI 工具
 * Pandoc *markdown/textile/html 互轉*

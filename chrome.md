@@ -52,8 +52,10 @@
 | cam         | http://dictionary.cambridge.org/search/british/?source=gadgets&q=%s |
 | mw          | http://www.merriam-webster.com/dictionary/%s                        |
 | oxd         | http://oxforddictionaries.com/search/english/?direct=1&multi=1&q=%s |
-| rg          | {google:baseURL}search?q=%s+site:guides.rubyonrails.org             |
+| rg4         | {google:baseURL}search?q=%s+site:guides.rubyonrails.org             |
+| rg          | {google:baseURL}search?q=%s+site:guides.rubyonrails.org/v3.2.14/    |
 | rb          | (from Ruby API Search Extension)                                    |
 | fkcc        | http://www.flickr.com/search/?q=%s&l=cc&ct=0&mt=all&adv=1           |
 | extensions  | https://chrome.google.com/webstore/search/%s?hl=en-US               |
+| fbd         | https://developers.facebook.com/tools/debug/og/object?q=%s          |
 
