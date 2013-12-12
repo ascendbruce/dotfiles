@@ -20,6 +20,8 @@ export DYLD_LIBRARY_PATH="/usr/local/mysql/lib:$DYLD_LIBRARY_PATH"
 alias ll="ls -lh"
 alias la="ls -ah"
 alias lla="ls -lah"
+alias work="subl .; stree .;"
+alias devlog="tail -f log/development.log"
 
 
 # colorful

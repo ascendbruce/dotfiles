@@ -3,7 +3,7 @@
     "bracket_styles": {
 
         "default": {
-            "icon": "bookmark",
+            "icon": "",
             "color": "brackethighlighter.default",
             "style": "outline"
         },
@@ -13,16 +13,16 @@
             "style": "outline"
         },
         "curly": {
-            "icon": "bookmark"
+            "icon": ""
         },
         "round": {
-            "icon": "bookmark"
+            "icon": ""
         },
         "square": {
-            "icon": "bookmark"
+            "icon": ""
         },
         "angle": {
-            "icon": "bookmark"
+            "icon": ""
         },
         "tag": {
             "icon": "",

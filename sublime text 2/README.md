@@ -10,6 +10,7 @@
 * GitGutter (行號旁邊顯示 +-)
 * Github Tools
 > 用 Command Palette 開啓在 Github 上的檔案/blame
+* SmartMarkdown
 * Markdown Preview
 * RSpec
 * Rail lastest migration
@@ -17,6 +18,8 @@
 * SCSS
 * SCSS Snippets
 * BracketHighlighter
+* RailsRelatedFiles
+* SideBarEnhancements
 
 ### 裝了但也不熟的
 * HTML5
