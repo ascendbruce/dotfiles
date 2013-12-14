@@ -154,6 +154,17 @@
 3. Phrase > Launch User Phrase Editor (並 Keep in Dock，方便以後追加)
 4. 匯入自定詞庫
 
+#### 偏好設定
+
+Input Methods: 只留 Smart Phonetic
+Candidates: horizontal
+highlight Color: Customized... > Tin (灰色)
+
+##### Phonetic
+勾選 Clear composing text with Esc key
+Selection Keys: asdfghjk
+
+
 ### Dock 空白
 在 Console 下
 

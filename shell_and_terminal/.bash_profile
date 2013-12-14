@@ -1,9 +1,6 @@
 # MacPorts Installer addition on 2011-08-08_at_16:37:31: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH
 
-# for booksearch
-export PATH=$PATH:/Users/bruce/Dropbox/Misc/bin
-
 # This loads RVM into a shell session.
 # 如果沒有加這行，會出現 "RVM is not a function, selecting rubies with 'rvm use ...' will not work."
 [[ -s "/Users/bruce/.rvm/scripts/rvm" ]] && source "/Users/bruce/.rvm/scripts/rvm"

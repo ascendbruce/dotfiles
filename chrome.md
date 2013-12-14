@@ -21,8 +21,7 @@
 * Google Dictionary (offical)
 * Incredible StartPage
 * JSONView
-* Lazarus
-> 會暫存表單輸入，誤關瀏覽器時有機會救回來。
+* Lazarus: 會暫存表單輸入，誤關瀏覽器時有機會救回來。
 * New Tong Wen Tang
 * OneTab
 * Page Monitor
@@ -30,8 +29,7 @@
 * Dev HTTP Client
 * RSS Feed Reader
 * Ruby API Search
-* Send to Kindle
-> 可以把網頁文章的醜樣板、JavaScript 都清除掉，變成好閱讀的格式（不一定真的要有 Kindle）
+* Send to Kindle: 可以把網頁文章的醜樣板、JavaScript 都清除掉，變成好閱讀的格式（不一定真的要有 Kindle）
 * StayFocusd
 * Stylebot
 * Tab Split
@@ -41,7 +39,10 @@
 * Xmarks Bookmark Sync
 * 新聞小幫手
 
-> Youtube Downloader 似乎已經全面從 Chrome app store 消失，優質替代方案 = Firefox + `1-click youtube video download` Add-on
+### YouTube, NicoNico 影片下載外掛
+
+* Youtube Downloader 似乎已經全面從 Chrome app store 消失，優質替代方案 = Firefox + `Youtube Video and Audio Downloader` Add-on
+* NicoNico 則用 NicoFox
 
 
 ## 自定搜尋引擎
