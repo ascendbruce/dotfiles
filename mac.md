@@ -143,7 +143,9 @@
 * Heroku Toolbelt
 
 ## Dashboard widgets
+
 * [Minutes](http://minutes.en.softonic.com/mac) 倒數計時
+* 打開 Calendar.app > Preferences > General > Start week on 改成 Monday，這樣 widgets 也會跟著改
 
 ## 其他設定
 ### Yahoo Key Key
@@ -190,11 +192,21 @@ Selection Keys: asdfghjk
     * Appearance 選 2D with transparency effect
     * 勾選 Use transparent icons for hidden applications
 
-### 放到 Finder Toolbar
-用拖曳的
+### Finder
 
-* Go2Shell
+拖到 sidebar:
+
+* Go > 按住 option > 出現 Library
+* Dropbox 等其他個人慣用資料夾
+
+拖到 toolbar
+
 * Disk Utility
+
+Path bar, Status bar 通通叫出來
+
+Perfernces > Sidebar > 隱藏 All my files
+
 
 ### System Preferences
 * General > Appearance > Graphite

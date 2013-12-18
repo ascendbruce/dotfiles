@@ -1,5 +1,7 @@
 # Chrome 設定
 * Settings
+  * Advanced Sync Settings
+    * 取消勾選 Bookmarks 跟 Open Tabs
   * Passwords and forms
     * 取消勾選 Offer to save passwords I enter on the web.
   * Languages
@@ -39,6 +41,10 @@
 * Xmarks Bookmark Sync
 * 新聞小幫手
 
+## Google Calendar
+
+透過 tempermonkey 套用 [Google Calendar - Weekend coloration](http://userscripts.org/scripts/source/77648.user.js)
+
 ### YouTube, NicoNico 影片下載外掛
 
 * Youtube Downloader 似乎已經全面從 Chrome app store 消失，優質替代方案 = Firefox + `Youtube Video and Audio Downloader` Add-on
@@ -57,6 +63,8 @@
 | rg          | {google:baseURL}search?q=%s+site:guides.rubyonrails.org/v3.2.14/    |
 | rb          | (from Ruby API Search Extension)                                    |
 | fkcc        | http://www.flickr.com/search/?q=%s&l=cc&ct=0&mt=all&adv=1           |
+| issue       | (issue tracking system)                                             |
+| is          | (issue tracking system)                                             |
 | extensions  | https://chrome.google.com/webstore/search/%s?hl=en-US               |
 | fbd         | https://developers.facebook.com/tools/debug/og/object?q=%s          |
 

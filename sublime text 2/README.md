@@ -10,7 +10,7 @@
 * GitGutter (行號旁邊顯示 +-)
 * Github Tools
 > 用 Command Palette 開啓在 Github 上的檔案/blame
-* SmartMarkdown
+* SmartMarkdown (但會導致中文輸入問題)
 * Markdown Preview
 * RSpec
 * Rail lastest migration
