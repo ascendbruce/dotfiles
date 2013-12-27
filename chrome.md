@@ -56,6 +56,7 @@
 |keyword      |URL                                                                  |
 |:------------|:--------------------------------------------------------------------|
 | yd          | http://tw.dictionary.yahoo.com/dictionary?p=%s                      |
+| gt          | http://translate.google.com.tw/#auto/zh-TW/%s                       |
 | cam         | http://dictionary.cambridge.org/search/british/?source=gadgets&q=%s |
 | mw          | http://www.merriam-webster.com/dictionary/%s                        |
 | oxd         | http://oxforddictionaries.com/search/english/?direct=1&multi=1&q=%s |

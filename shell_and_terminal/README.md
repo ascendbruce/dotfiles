@@ -1,5 +1,11 @@
 # Shell & Terminal app 設定
 
+## 若想用 zsh 
+
+參考 http://blog.tomchentw.com/posts/169120-zsh-with-oh-my-zsh-plugins
+
+`ZSH_THEME="gentoo"`
+
 ## .bash_profile
 Mac 要放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
 
