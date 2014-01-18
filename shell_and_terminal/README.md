@@ -1,13 +1,25 @@
 # Shell & Terminal app 設定
 
-## 若想用 zsh 
+## 若想用 zsh (最近正在嘗試改用 zsh)
 
 參考 http://blog.tomchentw.com/posts/169120-zsh-with-oh-my-zsh-plugins
 
-`ZSH_THEME="gentoo"`
+    ZSH_THEME="gentoo"
+
+    alias lla="ls -al"
+    alias work="subl .; stree .;"
+    alias devlog="tail -f log/development.log"
+    alias finder="open -a Finder"
+
+    plugins=(brew git ruby rails)
+
+    source $ZSH/oh-my-zsh.sh
+    export LC_ALL=en_US.UTF-8
+    export LANG=en_US.UTF-8
 
 ## .bash_profile
-Mac 要放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
+
+Mac 習慣放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
 
 ## Git 自動完成
 1. [取得最新的 .git-completion.bash script](http://git.kernel.org/cgit/git/git.git/plain/contrib/completion/)
@@ -24,13 +36,13 @@ CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 
 ### sublime commandline tool
 
-    ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+    ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 [source](https://gist.github.com/olivierlacan/1195304)
 
 ## Terminal client
 ### 共用
-* Monaco 13 pt;
+* Source Code Pro 13 pt;
 * Columns 100 x Rows 30
 
 ### Mac 內建 Terminal.app
@@ -41,7 +53,7 @@ CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 ### iTerm2
 #### General
 * 取消 Copy to clipboard on selection
-* 選擇 Reuse previous session's directory
+* 取消 Confirm closing multiple sessions
 
 #### Appearance
 * 取消 Hide tab bar when there is only one tab
@@ -49,6 +61,7 @@ CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 * 勾選 Animate dimming
 
 #### Profiles
+* General > 選擇 Reuse previous session's directory
 * Colors > Load Presets... > Tango Dark
 * Text > 參考「共用」
 * Window > Transparency 調一點點

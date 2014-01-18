@@ -1,153 +1,95 @@
 # Mac 設定
 ## 安裝軟體
-這邊的列表只是從現有的軟體 ls 出來的結果，並不是什麼非裝不可，備忘而已。
 
-* Address Book.app
-* Adium.app
-* Alfred.app (快速指令列)
-* AntiRSI.app
-* Anvil (Pow 管理工具)
-* App Store.app
-* ArgoUML.app
-* Automator.app
-* BadPiggies.app
-* CCleaner.app
-* Calculator.app
-* CheatSheet.app
-* Chess.app
-* Citrix Receiver.app
-* CocoaRestClient.app
-* Code Collector Pro.app
-* ColorStrokes.app
-* Copy.app
-* Cyberduck.app
-* DVD Player.app
-* Dash.app
-* Dashboard.app
-* Dictionary.app
-* Diskeeper.app
-* Dropbox.app
-* Ehon.app
-* Espresso.app
-* Evernote.app
-* FStream.app
-* FaceTime.app
-* FileZilla.app
-* Firefox.app
-* Font Book.app
-* Fugu.app (SFTP client)
-* GeekTool.app
-* GitX.app
-* Gitbox.app
-* Go2Shell.app
-* Google Chrome.app
-* Google Drive.app
-* Growl.app
-* Image Capture.app
-* JewelryBox.app
-* Katawa Shoujo.app
-* Kindle.app
-* Kinoni Barcode Reader.app
-* Kobito.app
-* Launchpad.app
-* League of Legends.app
-* Line.app
-* Liquid Pro.app
-* LockScreen2.app
-* MPlayer OSX Extended.app
-* MacFonts-CreativeFonts.app
-* MacPilot.app
-* Magican.app
-* Mail.app
-* MesaSQLite.app
-* Microsoft Communicator.app
-* Mission Control.app
-* MonoDevelop.app
-* Mou.app
-* MouseX.app
-* Movist.app
-* Need For Speed Most Wanted.app
-* OmniDiskSweeper.app
-* OnyX.app
-* Opera Next.app
-* PDF to ePub Converter.app
-* Photo Booth.app
-* Picasa.app
-* Preview.app
-* QuickTime Player.app
-* Reeder.app
-* Remote Desktop Connection.app
-* RestClient.app
-* Safari.app
-* Second Life Viewer.app
-* SelfControl.app
-* Shortcat.app
-* Shuttie.app
-* Sikuli-IDE.app
-* Simple Comic.app
-* Skitch.app
-* Skype.app
-* SnipEdges.app
-* Songbird.app
-* SourceTree.app
-* SparkleShare.app
-* Splashtop 2.app
-* Stay.app
-* Steam.app
-* Stickies.app
-* Stone Hill Time Card.app
-* Store News.app
-* Sequel Pro
-* Sublime Text 2.app
-* SugarSync Manager.app
-* Super Video Converter.app
-* SushiChop.app
-* System Preferences.app
-* TeamViewer.app
-* TextEdit.app
-* The Unarchiver.app
-* Time Machine.app
-* Timing.app
-* Todoist.app
-* TorBrowser_en-US.app
-* Transmission.app
-* Twins Mini.app
-* VLC.app
-* VirtualBox.app
-* Vox.app
-* Wireshark.app
-* XLD.app
-* XMind 331 NG.app
-* XMind.app
-* Xcode.app
-* Xlog.app
-* Xmarks for Safari.app
-* cmdQuit.app
-* iCal.app
-* iChat.app
-* iStat Menus.app
-* iTunes.app
-* iUnarchive.app
-* p4merge.app
-* BetterTouchTool (windows snapping)
+內建的就不列了，有些要用到時自然會裝的也不介紹了。
+
+### 超推薦要裝 - 一般性
+
+| Name         | Description
+|:-------------|:-----------------------------
+| AntiRSI      | 防止電腦職業病 (付費)
+| Alfred       | 快速指令列，想像是 Spot Light 加強版
+| Magican      | 具有「完整移除 app」的功能，其他的功能就都沒啥用
+
+### 超推薦要裝 - 開發者
+
+| Name         | Description
+|:-------------|:-----------------------------
+| Go2Shell     | 打開 Terminal app 並跳到 Finder 目前所在位置
+| Kaleidoscope | Mac 上最好用的 Diff 軟體 (付費)
+| SourceTree   | Mac 上堪用的 git GUI client，但他有一個已知問題，請參考 [小黑方框同時欄位消失](http://ascendbruce.logdown.com/posts/171384-sourcetree-file-list-disappear-with-a-little-black-box)
+| Sequel Pro   | MySQL client，也可以透過 SSH 登入遠端的 server，這樣就不用裝 phpmyadmin 了。但須注意他的 CSV 匯出格式有問題，不要用！
+
+### 其他
+
+自己去找介紹，依字母排序。
+
+* Adium
+* Anvil
+* CCleaner
+* CheatSheet
+* BetterTouchTool 或 Cinch 或 Flexiglass
+* CleanMyDrive
+* CocoaRestClient 或 RestClient
+* Dash
+* Diskeeper
+* Dropbox
+* Ehon
+* FileZilla
+* Firefox
+* Fugu
+* Gemini 或 Twins Mini
+* Google Chrome
+* iStat Menus
+* iTerm
+* iUnarchive
+* JewelryBox
+* Mou
+* OnyX
+* p4merge
+* Picasa
+* SelfControl
 * SetEXIFData
+* Shortcat
+* Shuttie
+* Sikuli-IDE
+* Simple Comic
+* Skitch
+* Skype
+* Songbird
+* Steam
+* Store News
+* Sublime Text 2
+* Super Video Converter
+* The Unarchiver
+* Timing
+* TorBrowser
+* Transmission
+* VirtualBox
+* VLC
+* XQuartz
+
 
 ## CLI 工具
-* Pandoc *markdown/textile/html 互轉*
-> 這東西會造成 rails console 炸掉，原因不明，目前沒空研究。
-> sudo rm -rf /usr/local/bin/pandoc
-> sudo rm -rf /usr/local/doc/pandoc-1.11.1/
-> sudo rm -rf /usr/local/share/man/man1/pandoc.1.gz
-> sudo rm -rf /usr/local/share/man/man5/pandoc_markdown.5.gz
-> sudo rm -rf /usr/local/share/pandoc-1.11.1/
+
 * Heroku Toolbelt
+* Source Tree CLI Tool `stree`
+* Sublime Text CLI Tool `subl`
+* Kaleidoscope CLI Tool `ksdiff`
 
 ## Dashboard widgets
 
 * [Minutes](http://minutes.en.softonic.com/mac) 倒數計時
 * 打開 Calendar.app > Preferences > General > Start week on 改成 Monday，這樣 widgets 也會跟著改
+* 中央氣象局溫度趨勢預報圖，用 Safari 打開後 Open in Dashboard
+
 
 ## 其他設定
+
+Mavericks 若遇到 `can't be opened because it is from an unidentified developer`
+
+到 `System Preferences... > Security & Privacy` 允許該程式、或暫時允許任何程式安裝
+
 ### Yahoo Key Key
 因為官方已經停止支援了，要看之後 Mac OS 是否繼續相容＆有沒有人接手，可能會有變化。
 
@@ -155,6 +97,15 @@
 2. 取消 Yahoo Key Key > Preference > update > Check on launch (反正都沒有支援了...)
 3. Phrase > Launch User Phrase Editor (並 Keep in Dock，方便以後追加)
 4. 匯入自定詞庫
+
+### Alfred
+
+Appearance
+
+* Dark and Smooth
+* Hide Hat on Alfred window
+
+Features > Calculator > Ignore thousands separator
 
 #### 偏好設定
 
@@ -176,10 +127,17 @@ Selection Keys: asdfghjk
 
     killall Dock
 
-### 釋放記憶體Service
+### 釋放記憶體 Service
+
 1. 參考 [快樂小藥師-如何釋放mac的記憶體](http://mulicia.pixnet.net/blog/post/28075876-%E5%A6%82%E4%BD%95%E9%87%8B%E6%94%BEmac%E7%9A%84%E8%A8%98%E6%86%B6%E9%AB%94)
 2. Application 限 Finder
 3. 命名為 "Purge Memory"
+
+或是去下載 Memory Clean.app
+
+## 解除 iTunes play button 綁架
+
+http://ascendbruce.logdown.com/posts/141169-get-rid-of-itunes-and-media-keys-binding
 
 ### OnyX
 * Parameters
@@ -205,12 +163,41 @@ Selection Keys: asdfghjk
 
 Path bar, Status bar 通通叫出來
 
+
+Perfernces > General > Spring-loaded folders and windows > 調到 Short
 Perfernces > Sidebar > 隱藏 All my files
 
+
+### Go2Shell
+
+在 Termial 執行 `open -a Go2Shell --args config`，會跳出 Preferences
+
+* 選 iTerm2
+* 指令改為 `cd %PATH%`
+
+### 放到 Finder Toolbar
+
+用拖曳的，Mavericks 之後好像必須加上 option+command 才能拖進去
+
+* Go2Shell
+* Disk Utility
+
+### Skype
+
+Notificaiton 通通關掉
+
+### Xmind
+
+Preferences > Keys
+
+* Edit title: return
+* Insert a subtopic: cmd+return
+* Insert a topic: shift+return
 
 ### System Preferences
 * General > Appearance > Graphite
 * Accessibility > Zoom
+  * 游標大小: 調整到與 System Preferences 右上角的 search box 同高
   * 勾選 Use keyboard shortcuts to zoom
   * 勾選 Use scroll gesture with modifier keys to zoom. modifier 選 Ctrl
   * More Options... > When zoomed in, the screen image moves > Continuously with pointer
@@ -220,7 +207,9 @@ Perfernces > Sidebar > 隱藏 All my files
   1. English
   2. 繁體中文
   3. 簡體中文
+* Keyboard > Key Repeat 跟 Delay Until Repeat 都拉到最右邊
 * Keyboard > Keyboard Shortcuts > Application Shortcuts
+  * Input Source 兩個都打開
   * All Application
     * cmd+shift+m : Zoom
     * cmd+shift+m : 縮放

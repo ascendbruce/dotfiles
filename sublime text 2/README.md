@@ -20,21 +20,20 @@
 * BracketHighlighter
 * RailsRelatedFiles
 * SideBarEnhancements
+* knockdown (Github Flavored Markdown 語法標色)
+* PlainTasks
+* Tomorrow Color Schemes
+* SublimeLinter
 
-### 裝了但也不熟的
+### 其他可考慮裝的外掛
 * HTML5
 * ApplySyntax
-* knockdown
-* PlainTasks
 * PyV8
 * All Autocomplete
 * BeautifyRuby
 * Clipboard History
-* Haxe
 * SublimeCodeIntel
-* SublimeLinter
-* SublimeTODO
 
 ## 額外設定
-* 幹掉 PHP package (因為會干擾 if[tab]/else[tab] 等ERB snippet) 透過 setting ignore 即可
-* 移掉 Rails 裡的 end[tab] snippet (會干擾ERB snippet package)
+* View > Sidbar > Show Open Files
+* 刪除 `~/Library/Application Support/Sublime Text 2/Packages/Rails/end.sublime-snippet` (會干擾ERB snippet package)

@@ -12,21 +12,21 @@
 
 * AdBlock
 * Awesome Screenshot
-* Clicable Links
-> 讓沒有寫 a tag 的網址(字串)自動加上 a tag，但這外掛好像會有廣告。
-* Facebook QSearch
-> Facebook 的搜尋真他X的垃圾，這個才像話
+* Evernote Web Clipper
+* Facebook QSearch: Facebook 的搜尋真他X的垃圾，這個才像話
 * FlashBlock
 * Google Analytics Opt-out
 * tampermonkey
 * [Google Calendar - Weekend coloration - FR](http://userscripts.org/scripts/show/77649)
 * Google Dictionary (offical)
 * Incredible StartPage
+* I wanna quit Facebook Shopping Group
 * JSONView
 * Lazarus: 會暫存表單輸入，誤關瀏覽器時有機會救回來。
 * New Tong Wen Tang
 * OneTab
 * Page Monitor
+* QPush - 從電腦快推到手機
 * Buffer
 * Dev HTTP Client
 * RSS Feed Reader
@@ -35,11 +35,11 @@
 * StayFocusd
 * Stylebot
 * Tab Split
-* Ultimate YouTube Downloader
 * Unblock Youku
 * Web Timer
 * Xmarks Bookmark Sync
 * 新聞小幫手
+* 搜書比價助手
 
 ## Google Calendar
 
@@ -48,7 +48,7 @@
 ### YouTube, NicoNico 影片下載外掛
 
 * Youtube Downloader 似乎已經全面從 Chrome app store 消失，優質替代方案 = Firefox + `Youtube Video and Audio Downloader` Add-on
-* NicoNico 則用 NicoFox
+* NicoNico 則用 Firefox + NicoFox
 
 
 ## 自定搜尋引擎
@@ -68,4 +68,4 @@
 | is          | (issue tracking system)                                             |
 | extensions  | https://chrome.google.com/webstore/search/%s?hl=en-US               |
 | fbd         | https://developers.facebook.com/tools/debug/og/object?q=%s          |
-
+| ve          | http://video.eyny.com/search.php?keyword=%s&createtime=0&channel=0&key=title&page=1|
