@@ -20,6 +20,10 @@
 | SourceTree   | Mac 上堪用的 git GUI client，但他有一個已知問題，請參考 [小黑方框同時欄位消失](http://ascendbruce.logdown.com/posts/171384-sourcetree-file-list-disappear-with-a-little-black-box)
 | Sequel Pro   | MySQL client，也可以透過 SSH 登入遠端的 server，這樣就不用裝 phpmyadmin 了。但須注意他的 CSV 匯出格式有問題，不要用！
 
+### 剛重灌後
+
+[Get Mac Apps](http://getmacapps.com/) 可快速勾選安裝一些常用的工具
+
 ### 其他
 
 自己去找介紹，依字母排序。

@@ -16,14 +16,15 @@
 * Facebook QSearch: Facebook 的搜尋真他X的垃圾，這個才像話
 * FlashBlock
 * Google Analytics Opt-out
-* tampermonkey
-* [Google Calendar - Weekend coloration - FR](http://userscripts.org/scripts/show/77649)
+* Copy as Markdown
+* [Google Calendar - Weekend coloration - FR](http://userscripts.org/scripts/show/77649) 下載後再拖到 Extensions 頁
 * Google Dictionary (offical)
 * Incredible StartPage
 * I wanna quit Facebook Shopping Group
 * JSONView
 * Lazarus: 會暫存表單輸入，誤關瀏覽器時有機會救回來。
 * New Tong Wen Tang
+* Readerful
 * OneTab
 * Page Monitor
 * QPush - 從電腦快推到手機
