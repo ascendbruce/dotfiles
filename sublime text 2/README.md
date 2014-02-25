@@ -2,19 +2,16 @@
 ## 要安裝的外掛
 * Package Control
 * Alignment (cmd+shift+a 多行對齊)
-* DetectSyntax
+* ApplySyntax (偵測正確的語法，例如 rb => ruby, ror, rspec...)
 * Emmet (Zen Code)
 * ERB_Snippets (if, ife, else, end, lt 等 snippets)
-* Git/Git Tool
-* Git status Files
+* Git (用 Command Palette 下 git 指令)
 * GitGutter (行號旁邊顯示 +-)
-* Github Tools
-> 用 Command Palette 開啓在 Github 上的檔案/blame
+* Githubinator (用 Command Palette 開啓在 Github 上的檔案/blame)
 * SmartMarkdown (但會導致中文輸入問題)
-* Markdown Preview
+* Markdown Preview (有 GFM)
 * RSpec
-* Rail lastest migration
-> 用 Command Palette 開啓最後一個migration file
+* Rail lastest migration (用 Command Palette 開啓最後一個migration file)
 * SCSS
 * SCSS Snippets
 * BracketHighlighter
@@ -33,6 +30,10 @@
 * BeautifyRuby
 * Clipboard History
 * SublimeCodeIntel
+
+### 不知道
+
+* Git status Files (?)
 
 ## 額外設定
 * View > Sidbar > Show Open Files

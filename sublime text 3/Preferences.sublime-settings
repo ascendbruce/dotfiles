@@ -1,0 +1,30 @@
+{
+  "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+  "detect_slow_plugins": false,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+  ],
+  "find_selected_text": true,
+  "font_face": "Source Code Pro",
+  "font_size": 13.0,
+  "highlight_line": true,
+  "ignored_packages":
+  [
+    "Vintage",
+    "PHP",
+    "ERB Snippets"
+  ],
+  "match_brackets": false,
+  "scroll_past_end": true,
+  "show_full_path": true,
+  "sublimelinter_executable_map":
+  {
+    "ruby": "/User/bruce/.rvm/bin/rvm-auto-ruby"
+  },
+  "tab_size": 2,
+  "theme": "Soda Dark 3.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "wide_caret": true
+}

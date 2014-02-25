@@ -1,0 +1,27 @@
+{
+  "installed_packages":
+  [
+    "Alignment",
+    "ApplySyntax",
+    "BracketHighlighter",
+    "CTags",
+    "Emmet",
+    "ERB Snippets",
+    "Git",
+    "GitGutter",
+    "GitHubinator",
+    "knockdown",
+    "Markdown Preview",
+    "MultiLang Color Scheme",
+    "PlainTasks",
+    "Rails Developer Snippets",
+    "Rails Latest Migration",
+    "RailsCasts Colour Scheme",
+    "Ruby Debugger",
+    "Sass",
+    "SideBarEnhancements",
+    "Theme - Nil",
+    "Theme - Soda",
+    "Tomorrow Color Schemes"
+  ]
+}

@@ -38,7 +38,7 @@
 * FileZilla
 * Firefox
 * Fugu
-* Gemini 或 Twins Mini
+* Gemini 或 Twins Mini (Gemini 比較好用)
 * Google Chrome
 * iStat Menus
 * iTerm
@@ -62,7 +62,7 @@
 * Sublime Text 2
 * Super Video Converter
 * The Unarchiver
-* Timing
+* RescueTime 或 Timing
 * TorBrowser
 * Transmission
 * VirtualBox
