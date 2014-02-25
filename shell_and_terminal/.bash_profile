@@ -27,6 +27,7 @@ alias la="ls -ah"
 alias lla="ls -lah"
 alias work="subl .; stree .;"
 alias devlog="tail -f log/development.log"
+alias finder="open -a Finder"
 
 
 # colorful
@@ -47,3 +48,6 @@ export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
 # if still not work. try ctrl+l
 shopt -s checkwinsize
 
+# fix chinese broken
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8

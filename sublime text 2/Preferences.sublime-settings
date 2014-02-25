@@ -12,15 +12,15 @@
 		"PHP"
 	],
 	"match_brackets": false,
-	"open_files_in_new_window": true,
+	"open_files_in_new_window": false, // To open form source stree and in correct project window
 	"scroll_past_end": true,
 	"show_full_path": true,
 	"sublimelinter_executable_map":
 	{
-		"ruby": "/User/bruce/.rvm/bin/rvm-auto-ruby"
+		"ruby": "/Users/bruce/.rvm/bin/rvm-auto-ruby"
 	},
 	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
+	"theme": "Nexus.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true
