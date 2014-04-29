@@ -94,6 +94,10 @@ Mavericks 若遇到 `can't be opened because it is from an unidentified develope
 
 到 `System Preferences... > Security & Privacy` 允許該程式、或暫時允許任何程式安裝
 
+### 改回 Old style sleep mode 以加快 wakeup 速度
+
+http://www.macworld.com/article/1053471/sleepmode.html
+
 ### Yahoo Key Key
 因為官方已經停止支援了，要看之後 Mac OS 是否繼續相容＆有沒有人接手，可能會有變化。
 
