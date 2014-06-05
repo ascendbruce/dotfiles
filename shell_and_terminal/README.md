@@ -11,7 +11,7 @@
     alias devlog="tail -f log/development.log"
     alias finder="open -a Finder"
 
-    plugins=(brew git ruby rails)
+    plugins=(brew git ruby rails rake rvm bundler capistrano gem git-hubflow history thor vagrant)
 
     source $ZSH/oh-my-zsh.sh
     export LC_ALL=en_US.UTF-8
