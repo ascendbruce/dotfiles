@@ -90,7 +90,7 @@
 
 ## 其他設定
 
-Mavericks 若遇到 `can't be opened because it is from an unidentified developer`
+Mac OSX 10.9 以上若遇到 `can't be opened because it is from an unidentified developer`
 
 到 `System Preferences... > Security & Privacy` 允許該程式、或暫時允許任何程式安裝
 
@@ -99,21 +99,15 @@ Mavericks 若遇到 `can't be opened because it is from an unidentified develope
 http://www.macworld.com/article/1053471/sleepmode.html
 
 ### Yahoo Key Key
+
+> Mac OSX 10.9 以上建議改用自然輸入法。
+
 因為官方已經停止支援了，要看之後 Mac OS 是否繼續相容＆有沒有人接手，可能會有變化。
 
 1. 安裝 Yahoo Key Key 1.1 build 2535 (最後一版)
 2. 取消 Yahoo Key Key > Preference > update > Check on launch (反正都沒有支援了...)
 3. Phrase > Launch User Phrase Editor (並 Keep in Dock，方便以後追加)
 4. 匯入自定詞庫
-
-### Alfred
-
-Appearance
-
-* Dark and Smooth
-* Hide Hat on Alfred window
-
-Features > Calculator > Ignore thousands separator
 
 #### 偏好設定
 
@@ -124,6 +118,15 @@ highlight Color: Customized... > Tin (灰色)
 ##### Phonetic
 勾選 Clear composing text with Esc key
 Selection Keys: asdfghjk
+
+### Alfred
+
+Appearance
+
+* Dark and Smooth
+* Hide Hat on Alfred window
+
+Features > Calculator > Ignore thousands separator
 
 
 ### Dock 空白
