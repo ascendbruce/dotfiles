@@ -17,6 +17,12 @@
     export LC_ALL=en_US.UTF-8
     export LANG=en_US.UTF-8
 
+### 停止共享 command history
+
+http://apple.stackexchange.com/questions/75571/the-history-is-shared-between-my-iterm2-terminal-tabs-how-can-i-switch-that-off
+
+該指令要放在 .zshrc 裡
+
 ## .bash_profile
 
 Mac 習慣放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
