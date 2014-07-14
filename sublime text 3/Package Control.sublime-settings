@@ -1,27 +1,42 @@
 {
-  "installed_packages":
-  [
-    "Alignment",
-    "ApplySyntax",
-    "BracketHighlighter",
-    "CTags",
-    "Emmet",
-    "ERB Snippets",
-    "Git",
-    "GitGutter",
-    "GitHubinator",
-    "knockdown",
-    "Markdown Preview",
-    "MultiLang Color Scheme",
-    "PlainTasks",
-    "Rails Developer Snippets",
-    "Rails Latest Migration",
-    "RailsCasts Colour Scheme",
-    "Ruby Debugger",
-    "Sass",
-    "SideBarEnhancements",
-    "Theme - Nil",
-    "Theme - Soda",
-    "Tomorrow Color Schemes"
-  ]
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"ApplySyntax",
+		"BeautifyRuby",
+		"BracketHighlighter",
+		"ColorPicker",
+		"CTags",
+		"Emmet",
+		"ERB Snippets",
+		"Git",
+		"GitGutter",
+		"GitHubinator",
+		"Haml",
+		"Markdown Preview",
+		"MultiLang Color Scheme",
+		"PlainTasks",
+		"Rails Developer Snippets",
+		"Rails Latest Migration",
+		"Rails Migrations List",
+		"RailsCasts Colour Scheme",
+		"Related Files",
+		"RSpec",
+		"Ruby Debugger",
+		"Sass",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"Sublimall",
+		"sublime-tomorrow-theme",
+		"SublimeCodeIntel",
+		"SublimeREPL",
+		"Theme - Nil",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	],
+	"repositories":
+	[
+		"https://github.com/ascendbruce/sublime-tomorrow-theme"
+	]
 }
