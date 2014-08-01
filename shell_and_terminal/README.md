@@ -34,6 +34,12 @@ Mac 習慣放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
 ## git global ignore
     git config --global core.excludesfile ~/.gitignore_global
 
+## case-insensitive auto complete
+
+    echo "set completion-ignore-case On" >> ~/.inputrc
+
+http://blog.nickburwell.com/blog/2008/11/mac-os-x-terminal-case-insensitive-auto
+
 ### booksearch
 CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 
