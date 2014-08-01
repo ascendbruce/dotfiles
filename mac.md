@@ -209,12 +209,17 @@ Preferences > Keys
 
 ### System Preferences
 * General > Appearance > Graphite
-* Accessibility > Zoom
+* Accessibility > Display 
   * 游標大小: 調整到與 System Preferences 右上角的 search box 同高
+* Accessibility > Zoom
   * 勾選 Use keyboard shortcuts to zoom
   * 勾選 Use scroll gesture with modifier keys to zoom. modifier 選 Ctrl
   * More Options... > When zoomed in, the screen image moves > Continuously with pointer
-* Mission Control > Automatically rearrange spaces based on most recent use > 取消
+* Dock > Magnification 設定成稍微大一點點
+* Mission Control
+  * 取消 Automatically rearrange spaces based on most recent use
+  * 取消 Show Dashboard as a Sapce
+  * 取消 Displays have separate Spaces
 * Trackpad 手勢全開
 * Language
   1. English
@@ -226,8 +231,6 @@ Preferences > Keys
   * All Application
     * cmd+shift+m : Zoom
     * cmd+shift+m : 縮放
-  * Mission Control
-    * ctrl+shift+← : Show notification center
   * Ehon
     * ↑ : Next Page
     * ↓ : Previous Page
