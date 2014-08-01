@@ -9,6 +9,7 @@
 |:-------------|:-----------------------------
 | AntiRSI      | 防止電腦職業病 (付費)
 | Alfred       | 快速指令列，想像是 Spot Light 加強版
+| HyperDock    | windows snapping + drag anywhere
 | Magican      | 具有「完整移除 app」的功能，其他的功能就都沒啥用
 
 ### 超推薦要裝 - 開發者
@@ -19,6 +20,7 @@
 | Kaleidoscope | Mac 上最好用的 Diff 軟體 (付費)
 | SourceTree   | Mac 上堪用的 git GUI client，但他有一個已知問題，請參考 [小黑方框同時欄位消失](http://ascendbruce.logdown.com/posts/171384-sourcetree-file-list-disappear-with-a-little-black-box)
 | Sequel Pro   | MySQL client，也可以透過 SSH 登入遠端的 server，這樣就不用裝 phpmyadmin 了。但須注意他的 CSV 匯出格式有問題，不要用！
+| LaunchRocket | 管理 pg, mysql/percona, redis 啟動的 pref panel
 
 ### 剛重灌後
 
