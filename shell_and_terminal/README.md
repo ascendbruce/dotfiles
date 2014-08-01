@@ -59,6 +59,7 @@ CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 ### iTerm2
 #### General
 * 取消 Copy to clipboard on selection
+* 勾選 allow clipboard access to terminal apps
 * 取消 Confirm closing multiple sessions
 
 #### Appearance
