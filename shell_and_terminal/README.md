@@ -36,6 +36,10 @@ Mac 習慣放在 `~/.bash_profile`，Linux 則習慣放在 `~/.bashrc`。
 
 ## case-insensitive auto complete
 
+.oh-my-zsh 預設就是
+
+如果是用 bash，執行這條
+
     echo "set completion-ignore-case On" >> ~/.inputrc
 
 http://blog.nickburwell.com/blog/2008/11/mac-os-x-terminal-case-insensitive-auto
