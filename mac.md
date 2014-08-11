@@ -87,7 +87,7 @@
 
 * [Minutes](http://minutes.en.softonic.com/mac) 倒數計時
 * 打開 Calendar.app > Preferences > General > Start week on 改成 Monday，這樣 widgets 也會跟著改
-* 中央氣象局溫度趨勢預報圖，用 Safari 打開後 Open in Dashboard
+* 從 [中央氣象局溫度趨勢預報圖](http://www.cwb.gov.tw/V7/forecast/week/temperature_trend.htm) 選好區域後，用 Safari 直接打開圖片後 File > Open in Dashboard
 
 
 ## 其他設定
@@ -170,9 +170,7 @@ http://ascendbruce.logdown.com/posts/141169-get-rid-of-itunes-and-media-keys-bin
 * Go > 按住 option > 出現 Library
 * Dropbox 等其他個人慣用資料夾
 
-拖到 toolbar
-
-* Disk Utility
+可考慮把 Disk Utility 拖到 toolbar （Mavericks 以後的要加上 cmd 拖曳），如果習慣用 Alfread 叫出來就沒差
 
 Path bar, Status bar 通通叫出來
 
@@ -187,6 +185,8 @@ Perfernces > Sidebar > 隱藏 All my files
 
 * 選 iTerm2
 * 指令改為 `cd %PATH%`
+
+從 Applications 資料夾，`cmd` + 拖易到 Finder toolbar
 
 ### 放到 Finder Toolbar
 
