@@ -10,7 +10,7 @@
 ## 外掛
 不見得每個都要裝，看狀況。
 
-* AdBlock
+* AdBlock Plus (據說 AdBlock 有些隱私問題一直未解決)
 * Awesome Screenshot
 * Evernote Web Clipper
 * Facebook QSearch: Facebook 的搜尋真他X的垃圾，這個才像話
@@ -51,6 +51,15 @@
 * Youtube Downloader 似乎已經全面從 Chrome app store 消失，優質替代方案 = Firefox + `Youtube Video and Audio Downloader` Add-on
 * NicoNico 則用 Firefox + NicoFox
 
+
+### AdBlock Plus (ABP) 設定
+
+排除會勿檔 ad 造成功能異常的網站
+
+* facebook 後台
+* aws 後台
+* github
+* 自己手上的網站專案
 
 ## 自定搜尋引擎
 
