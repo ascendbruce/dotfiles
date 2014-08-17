@@ -92,6 +92,13 @@
 
 ## 其他設定
 
+### Calendar
+
+* 勾選 Preferences > Advanced > Show week numbers
+* 如果 week numbers 出現在週日而非週一，調整 System preferences > Language & Region > First day of week 選 Monday
+* 從 Accounts 把 Google Calendar 加入，如果有 group calendar 可透過 Delegation 功能分享
+* 開啟 Trello 的 Calendar power-up，並依照指示設定 iCalendar Feed
+
 Mac OSX 10.9 以上若遇到 `can't be opened because it is from an unidentified developer`
 
 到 `System Preferences... > Security & Privacy` 允許該程式、或暫時允許任何程式安裝
