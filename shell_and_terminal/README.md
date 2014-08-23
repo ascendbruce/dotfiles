@@ -88,4 +88,10 @@ CLI 下關鍵字搜尋博客來並回傳我的AP推薦連結。
 * Keys > Load Preset... > xterm with Numberic Keypad # 否則vim會無法使用數字鍵
 
 #### Keys
-  * cmd+shift+上下左右 : Select Split Pane 上下左右
+
+* cmd + shift + (上/下/左/右) : Select Split Pane on (Above/Below/Left/Right)
+* cmd + ←：Send Hex Code > 填入 0x01 (跳到行首)
+* cmd + →：Send Hex Code > 填入 0x05 (跳到行尾)
+* option + ←：Send Escape Sequence > 填入 b (往前跳一個 word)
+* option + →：Send Escape Sequence > 填入 f (往後跳一個 word)
+
