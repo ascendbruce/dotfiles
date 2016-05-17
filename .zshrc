@@ -1,3 +1,5 @@
+# See https://github.com/ascendbruce/dotfiles/wiki/ZSH-and-oh-my-zsh for how to install and setup
+
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/bruce/.oh-my-zsh
 
@@ -45,31 +47,36 @@ ZSH_THEME="gentoo"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew git git-prune ruby rails rbenv rake thor bundler sublime capistrano gem git-hubflow history thor vagrant zsh-syntax-highlighting)
+plugins=(brew git git-prune ruby rails rbenv rake bundler gem sublime history zsh-syntax-highlighting)
+
+DISABLE_UPDATE_PROMPT=true
 
 # User configuration
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
-# postgresapp
-# PATH=PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+
+export CONFIGURE_ARGS="/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config"
 
 source $ZSH/oh-my-zsh.sh
 
-# do not share history betweeen sessions
+# Do not share history betweeen sessions
 unsetopt inc_append_history
 unsetopt share_history
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8  
+export LC_ALL=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='subl'
+fi
+
+export BUNDLER_EDITOR='subl'
+export GIT_EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -78,8 +85,7 @@ export LC_ALL=en_US.UTF-8
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -90,9 +96,27 @@ eval "$(rbenv init -)"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias lla="ls -al"
+alias lla="ll -a"
 alias work="subl .; github .;"
 alias devlog="tail -f log/development.log"
 alias finder="open -a Finder"
 
-export CONFIGURE_ARGS="/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config"
+# source $(brew --prefix nvm)/nvm.sh
+
+# functions
+
+gsync() {
+  branch=$(git rev-parse --abbrev-ref HEAD)
+  git checkout $branch; git fetch --prune; git merge origin/$branch
+  git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d
+  bundle install
+}
+
+ctagsr() {
+  /usr/local/bin/ctags -R -f .tags .
+
+  if [ -f ./Gemfile ]
+    then
+      /usr/local/bin/ctags -R -f .gemtags $(bundle list --paths)
+  fi
+}

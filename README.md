@@ -1,3 +1,3 @@
-# 我的環境設定
+# My dotfiles and Mac config wiki
 
-內容已移到 wiki: https://github.com/ascendbruce/personal-settings/wiki
+https://github.com/ascendbruce/dotfiles/wiki
