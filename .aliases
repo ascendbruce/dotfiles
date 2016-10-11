@@ -1,0 +1,4 @@
+alias lla="ll -a"
+alias work="subl .; github .;"
+alias devlog="tail -f log/development.log"
+alias finder="open -a Finder"

@@ -87,36 +87,7 @@ export GIT_EDITOR='vim'
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias lla="ll -a"
-alias work="subl .; github .;"
-alias devlog="tail -f log/development.log"
-alias finder="open -a Finder"
-
 # source $(brew --prefix nvm)/nvm.sh
 
-# functions
-
-gsync() {
-  branch=$(git rev-parse --abbrev-ref HEAD)
-  git checkout $branch; git fetch --prune; git merge origin/$branch
-  git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d
-  bundle install
-}
-
-ctagsr() {
-  /usr/local/bin/ctags -R -f .tags .
-
-  if [ -f ./Gemfile ]
-    then
-      /usr/local/bin/ctags -R -f .gemtags $(bundle list --paths)
-  fi
-}
+source ~/.aliases
+source ~/.custom_functions
