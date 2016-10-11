@@ -14,7 +14,7 @@ git clone https://github.com/Seinh/git-prune.git ${ZSH_CUSTOM:-~/.oh-my-zsh/cust
 mkdir -p ~/Projects
 git clone git@github.com:ascendbruce/dotfiles.git ~/Projects/dotfiles
 
-ln -s -f ~/Projects/dotfiles/.zshrc .zshrc
-ln -s -f ~/Projects/dotfiles/.gemrc .gemrc
+ln -sf ~/Projects/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/Projects/dotfiles/.gemrc ~/.gemrc
 
 source ~/.zshrc
