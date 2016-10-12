@@ -2,5 +2,4 @@ gsync() {
   branch=$(git rev-parse --abbrev-ref HEAD)
   git checkout $branch; git fetch --prune; git merge origin/$branch
   git branch -r | awk '{print $1}' | egrep -v -f /dev/fd/0 <(git branch -vv | grep origin) | awk '{print $1}' | xargs git branch -d
-  bundle install
 }
