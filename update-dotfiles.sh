@@ -7,10 +7,10 @@
 cd ~/Projects/dotfiles
 git pull
 
-ln -sf ~/Projects/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/Projects/dotfiles/.gemrc ~/.gemrc
-ln -sf ~/Projects/dotfiles/.aliases ~/.aliases
-ln -sf ~/Projects/dotfiles/.custom_functions ~/.custom_functions
-ln -sf ~/Projects/dotfiles/.gitignore_global ~/.gitignore_global
+ln -sFi ~/Projects/dotfiles/.zshrc ~/.zshrc
+ln -sFi ~/Projects/dotfiles/.gemrc ~/.gemrc
+ln -sFi ~/Projects/dotfiles/.aliases ~/.aliases
+ln -sFi ~/Projects/dotfiles/.custom_functions ~/.custom_functions
+ln -sFi ~/Projects/dotfiles/.gitignore_global ~/.gitignore_global
 
 source ~/.zshrc
