@@ -1,2 +1,10 @@
 *~
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+/.tags
+/.gemtags
+/.tags_sorted_by_file
