@@ -91,3 +91,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 
 source ~/.aliases
 source ~/.custom_functions
+
+export SKIP_COVERAGE=true
