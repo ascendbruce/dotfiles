@@ -7,3 +7,4 @@ alias ph="cat ~/.pry_history"
 alias phg="cat ~/.pry_history | grep"
 alias gs="gst"
 alias gfco="gf; gco"
+alias tigs='tig status'
