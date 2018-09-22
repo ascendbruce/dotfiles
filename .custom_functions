@@ -7,3 +7,7 @@ gsync() {
 ctags_ruby_enhance() {
   ctags -R -f .gemtags $(bundle list --paths)
 }
+
+ses_notify() {
+  aws ses send-email --region us-west-2 --from ascendbruce@gmail.com --to ascendbruce@gmail.com --subject "SES Notify - $1" --text $1
+}
