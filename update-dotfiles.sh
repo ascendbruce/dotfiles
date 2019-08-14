@@ -13,6 +13,7 @@ ln -sFi ~/Projects/dotfiles/.aliases ~/.aliases
 ln -sFi ~/Projects/dotfiles/.custom_functions ~/.custom_functions
 ln -sFi ~/Projects/dotfiles/.gitignore_global ~/.gitignore_global
 ln -sFi ~/Projects/dotfiles/.tigrc ~/.tigrc
+ln -sFi ~/Projects/dotfiles/.leptonrc ~/.leptonrc
 touch ~/.pgpass
 
 source ~/.zshrc
