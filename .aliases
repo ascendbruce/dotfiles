@@ -1,5 +1,5 @@
 alias lla="ll -a"
-alias work="subl .; github .;"
+alias work="subl .; smerge .;"
 alias devlog="tail -f log/development.log"
 alias finder="open -a Finder"
 alias hg="history | grep"
