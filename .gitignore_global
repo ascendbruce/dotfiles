@@ -8,3 +8,7 @@
 /.tags
 /.gemtags
 /.tags_sorted_by_file
+
+/rails/.tags
+/rails/.gemtags
+/rails/.tags_sorted_by_file
